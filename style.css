@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-family: sans-serif;
+  background: #2d98da;
+  color: #fff !important;
+  margin-top: 70px;
+}
+h1 {
+  margin: 10px 0px;
+}
+h2 {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+.grid_spacer {
+  width: 100px;
+  height: 2px;
+  background: rgba(0,0,0,0.2);
+  margin: 10px auto;
+}
+*{font-family: 'Montserrat', sans-serif; box-sizing: border-box;}
+.grid_stats {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: calc(30px * 20);
+  height: 40px;
+  margin: 0 auto;
+}
+.grid_stats div{
+  width: 50%;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #ededed;
+}
+#grid {
+  width: calc(30px * 15);
+  height: calc(30px * 15);
+  margin: 0 auto;
+  box-shadow: 0px 2px 200px -80px #000;
+}
+#grid_status {
+  text-transform: uppercase;
+}
+#grid_status.red {
+  color: red;
+}
+#grid_status.green {
+  color: #20bf6b;
+}
+#grid .row {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 30px;
+}
+#grid .row .field {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.05);
+  text-align: center;
+  font-weight: 700 !important;
+  line-height: 30px;
+  color: #45aaf2;
+  outline: 0;
+  cursor: pointer;
+}
+#grid .row .field:hover {
+  background: #ddd;
+}
+#grid .row .field.checked {
+  background: #45aaf2 !important;
+  border-color: #2d98da;
+  color: #fff !important;
+}
+#grid .row .field.bomb {
+  background: #eb3b5a !important;
+  color: #fff !important;
+  border-color: red !important;
+}
+#grid .row .field.flag {
+  background: #fd9644 !important;
+  border-color: #fa8231;
+  color: #fff;
+}
