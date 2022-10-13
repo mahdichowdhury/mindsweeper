@@ -3,21 +3,21 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-family: sans-serif;
-  background: #2d98da;
-  color: #fff !important;
-  margin-top: 70px;
+  background: #c34e83;
+  color: rgb(235, 218, 64) !important;
+  margin-top: 80px;
 }
 h1 {
   margin: 10px 0px;
 }
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   margin: 10px 0px;
 }
 .grid_spacer {
   width: 100px;
   height: 2px;
-  background: rgba(0,0,0,0.2);
+  background: #4938ce33;
   margin: 10px auto;
 }
 *{font-family: 'Montserrat', sans-serif; box-sizing: border-box;}
@@ -45,10 +45,10 @@ h2 {
   text-transform: uppercase;
 }
 #grid_status.red {
-  color: red;
+  color: rgb(161, 69, 69);
 }
 #grid_status.green {
-  color: #20bf6b;
+  color: #62f50d;
 }
 #grid .row {
   display: flex;
@@ -83,7 +83,7 @@ h2 {
   border-color: red !important;
 }
 #grid .row .field.flag {
-  background: #fd9644 !important;
-  border-color: #fa8231;
+  background: #17f5f5 !important;
+  border-color: #3108fb;
   color: #fff;
-}
+} 
